@@ -92,7 +92,7 @@ const CurrentDate = props => {
   console.log("DATE props", props);
   return (
     <View>
-      <Text style={styles.curentDateStyle}>{props.todaysDate}</Text>
+      <Text style={styles.curentDateStyle}>{props.children}</Text>
     </View>
   );
 };

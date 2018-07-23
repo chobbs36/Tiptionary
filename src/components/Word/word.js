@@ -88,7 +88,7 @@ class Word extends Component {
 
     return (
       <Card>
-        <CurrentDate todaysDate={this.getCurrentDate()} />
+        <CurrentDate>{this.getCurrentDate()}</CurrentDate>
         <View>
           <TouchableOpacity>
             <Icon name="volume-up" size={30} />
@@ -136,7 +136,7 @@ const styles = {
   },
   partOfSpeechStyle: {
     fontStyle: "italic",
-    fontSize: 10,
+    fontSize: 12,
     textAlign: "center"
   },
   definitionStyle: {
